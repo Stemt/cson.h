@@ -9,7 +9,9 @@ This library is not fully JSON compliant on the following points.
 
 ## To run tests
 
-Simply run `make`
+Test are implemented using [utest.h by sheredom](https://github.com/sheredom/utest.h).
+
+Simply run `make` to run the tests.
 
 ## Usage
 
