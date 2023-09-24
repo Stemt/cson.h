@@ -1,6 +1,12 @@
 # cson.h
 cson.h is a single header json parsing library written in c
 
+## Disclaimer
+
+This library is not fully JSON compliant on the following points.
+- No handling of special charachters in strings like \n, \r, etc.
+- Exponents for numbers are currently not supported.
+
 ## To run tests
 
 Simply run `make`
