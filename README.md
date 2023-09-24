@@ -57,3 +57,8 @@ bool CSON_get_bool(CSON *cson);
 const char *CSON_get_string(CSON *cson);
 double CSON_get_double(CSON *cson); // returns number as double
 ```
+
+## TODO
+
+- add ways to get more information about parsing errors
+
