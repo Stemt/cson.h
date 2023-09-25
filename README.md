@@ -71,5 +71,7 @@ double CSON_get_double(CSON *cson); // returns number as double
 
 ## TODO
 
+- make CSON JSON compliant
 - add ways to get more information about parsing errors
-
+- implement api for creating and editing the JSON DOM 
+- implement encoding functionality
