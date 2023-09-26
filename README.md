@@ -1,5 +1,5 @@
 # cson.h
-cson.h is a single header json parsing library written in c
+cson.h is a single header stb-style json parsing library written in c
 
 ## Disclaimer
 
@@ -21,6 +21,7 @@ Please note that all string arguments must be zero terminated.
 
 ```C
 #include <stdio.h>
+#include CSON_IMPPLEMENTATION
 #include "cson.h"
 
 int main(void){
